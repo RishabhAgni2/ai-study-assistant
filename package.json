@@ -1,0 +1,17 @@
+{
+  "name": "studyflow",
+  "private": true,
+  "version": "1.0.0",
+  "description": "StudyFlow — an AI-powered study assistant. Paste a topic or notes, get interactive flashcards and a quiz.",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
