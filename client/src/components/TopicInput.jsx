@@ -37,7 +37,7 @@ export default function TopicInput({ onGenerate, isLoading, validationError }) {
               <line x1="8" y1="17" x2="20" y2="17" stroke="#F4F1E8" strokeWidth="2" opacity="0.6" />
               <line x1="8" y1="21" x2="16" y2="21" stroke="#F4F1E8" strokeWidth="2" opacity="0.6" />
             </svg>
-            <span className="font-display font-semibold text-xl text-pine-dark">StudyFlow</span>
+            <span className="font-display font-semibold text-xl text-pine-dark">StudyFlow Ai-assistent By Rishabh Agnihotri</span>
           </div>
           <h1 className="font-display font-semibold text-3xl sm:text-4xl text-ink leading-tight text-balance">
             Turn any topic into flashcards and a quiz
